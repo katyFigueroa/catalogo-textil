@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+/**{outline: 1px solid red;}*/
+body{font-family: 'Titillium Web', sans-serif;}
+
+.nav-menu .logo img{width: 100%; padding: 5px 0px;}
+.nav-menu .bordes{border-right: 1px solid #eee; border-left: 1px solid #eee;}
+.nav-menu .titulo h2{font-weight: bold; padding: 23px 0;}
+.nav-menu section a {color: #000; text-decoration: none; font-size: 20px;}
+.nav-menu section a:hover { color: rgb(197,36,26);}
+.nav-menu section .activity {padding: 0; list-style: none; margin-bottom: 1px;}
+.nav-menu section .activity li {
+  -webkit-transition: box-shadow 0.2s ease;
+  -moz-transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; border-radius: 50%; color: #ffb600; display: inline-block; font-size: .889em; height: 3em; margin:3px 5px 3px 0;
+  position: relative; text-align: center; width: 3em; line-height: 3em;}
+.nav-menu section .activity li a {position: absolute; top: 0; right: 0; bottom: 0; left: 0;}
+.nav-menu section .activity li:hover { box-shadow: inset 0 0 0 3px rgb(197,36,26);}
+.nav-menu section .activity li:hover:before {
+  -webkit-transform: scale(0.925);
+  -moz-transform: scale(0.925);
+  -ms-transform: scale(0.925);
+  -o-transform: scale(0.925);
+  transform: scale(0.925);
+  box-shadow: 0 0 0 1px #ccc;
+  opacity: .5;
+}
+.nav-menu section .activity li:before {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-radius: 50%;
+  bottom: 0;
+  box-shadow: 0 0 0 1px #000;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.button{display: inline-block; margin-top: 3%;}
+.button button{background-color: rgb(197,36,26); color: #fff; padding: 7px 12px; border-radius: 15px; border: none; text-transform:uppercase; }
+.button button:hover{background-color: #000; color: #fff;}
+.nav-menu .contact a{color: rgb(197,36,26);}
+.nav-menu .contact a:hover{text-decoration: none; font-weight: bold; text-shadow: 0 0px 0 #fff; font-size: 15px;}
+/*-------------gallery---------*/
+.section-product {background-color: #eee;}
+.section-product img{width: 100%;}
+
+figure.snip1190 {
+  color: #fff; position: relative; float: left; overflow: hidden; width: 100%; background: #000000; text-align: center;
+  margin: 20px 0px; /*min-width: 220px; max-width: 310px; max-height: 220px;*/}
+figure.snip1190 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+figure.snip1190 img {opacity: 0.8; width: 100%;}
+figure.snip1190 figcaption {bottom: 0; display: block; left: 0; position: absolute; right: 0; top: 0;}
+figure.snip1190 h2 { font-weight: 400; left: 0; right: 0; letter-spacing: -1px; margin: 0 auto; position: absolute; text-transform: uppercase;
+  bottom: 50%; -webkit-transform: translateY(50%); transform: translateY(50%);}
+figure.snip1190 h2 span {font-weight: 800;}
+figure.snip1190 p {position: absolute; top: 0;left: 0; right: 0; margin: 0 auto; top: 50%; opacity: 0; font-size: 14px;
+  -webkit-transform: translateY(-20%) scale(0.7); transform: translateY(-20%) scale(0.7);}
+figure.snip1190 .square { height: 78px; width: 78px; overflow: hidden; position: absolute; top: 50%; left: 50%; content: '';
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  transform: rotate(45deg) translate(-50%, -50%);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+figure.snip1190 .square:before,
+figure.snip1190 .square:after,
+figure.snip1190 .square div:before,
+figure.snip1190 .square div:after {
+  background-color: #ffffff;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+figure.snip1190 .square:before, figure.snip1190 .square:after { width: 65%; height: 2px;}
+figure.snip1190 .square div:before, figure.snip1190 .square div:after { width: 2px; height: 65%;}
+figure.snip1190 .square:before, figure.snip1190 .square div:before { left: 0; top: 0;}
+figure.snip1190 .square:after, figure.snip1190 .square div:after {bottom: 0; right: 0;}
+figure.snip1190 a {left: 0; right: 0; top: 0; bottom: 0; position: absolute;}
+figure.snip1190:hover img, figure.snip1190.hover img { opacity: 0.25;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+figure.snip1190:hover h2, figure.snip1190.hover h2 { opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+figure.snip1190:hover p, figure.snip1190.hover p { opacity: 1;
+  -webkit-transform: translateY(0px) scale(1);
+  transform: translateY(0px) scale(1);
+}
+figure.snip1190:hover .square:before, figure.snip1190.hover .square:before { width: 38%;}
+figure.snip1190:hover .square div:before, figure.snip1190.hover .square div:before { height: 38%;}
+figure.snip1190:hover .square:after, figure.snip1190.hover .square:after { width: 55%;}
+figure.snip1190:hover .square div:after, figure.snip1190.hover .square div:after { height: 55%;}
+/*------------------gallleryy-img---*/
+.section-product .gallery .product{background-color: #fff; padding: 15px;}
+.section-product .gallery button{font-weight: bold; text-shadow: 0 1px 0 #fff;}
+.section-product .gallery .product:hover button{background-color: rgb(171,42,35); color: white; border: 1px solid #ccc; text-shadow:none; font-weight: normal;}
+.section-product .gallery .product hr{border-top: 1px solid #ccc;}
+.section-product .gallery .product:hover hr{border-top: 1px solid rgb(171,42,35);}
+.section-product .gallery .product i{float: right; font-size: 20px; color: #ccc;}
+.section-product .gallery h5{color: #000; font-weight: bold; }
+.section-product .gallery p{color: #505050; }
+.section-product .title-gallery{padding: 0 0 20px; }
+.section-product .title-gallery2{padding: 10px 0 20px; }
+
+
+.section-product .title-gallery h3.background {position: relative; z-index: 1;}
+.section-product .title-gallery h3.background:before { border-top: 2px solid #dfdfdf; content: ""; position: absolute; top: 50%;
+  left: 0; right: 0; bottom: 0; width: 100%; z-index: -1;}
+.section-product .title-gallery h3.background span { background: #eee; padding: 0 15px;}
+.section-product .title-gallery h3.double:before { border-top: none;}
+.section-product .title-gallery h3.double:after {border-top: 3px solid #000; border-bottom:1px solid gray; box-shadow: 0 0 1px 0 gray;
+  height: 6px; content: ""; position: absolute; top: 45%; left: 0; right: 0; width: 100%; z-index: -1;}
