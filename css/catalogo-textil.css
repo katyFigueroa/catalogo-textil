@@ -122,3 +122,173 @@ figure.snip1190:hover .square div:after, figure.snip1190.hover .square div:after
 .section-product .title-gallery h3.double:before { border-top: none;}
 .section-product .title-gallery h3.double:after {border-top: 3px solid #000; border-bottom:1px solid gray; box-shadow: 0 0 1px 0 gray;
   height: 6px; content: ""; position: absolute; top: 45%; left: 0; right: 0; width: 100%; z-index: -1;}
+
+
+
+.otros-lineas figure.snip1477 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 6.5%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  background-color: #000000;
+}
+
+.otros-lineas figure.snip1477 *,
+.otros-lineas figure.snip1477 *:before,
+.otros-lineas figure.snip1477 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+
+.otros-lineas figure.snip1477 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  opacity: 0.9;
+}
+
+.otros-lineas figure.snip1477 .title {
+  position: absolute;
+  top: 58%;
+  left: 25px;
+  padding: 5px 10px 10px;
+}
+
+.otros-lineas figure.snip1477 .title:before,
+.otros-lineas figure.snip1477 .title:after {
+  height: 2px;
+  width: 400px;
+  position: absolute;
+  content: '';
+  background-color: #ffffff;
+}
+
+.otros-lineas figure.snip1477 .title:before {
+  top: 0;
+  left: 10px;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.otros-lineas figure.snip1477 .title:after {
+  bottom: 0;
+  right: 10px;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.otros-lineas figure.snip1477 .title div:before,
+.otros-lineas figure.snip1477 .title div:after {
+  width: 2px;
+  height: 300px;
+  position: absolute;
+  content: '';
+  background-color: #ffffff;
+}
+
+.otros-lineas figure.snip1477 .title div:before {
+  top: 10px;
+  right: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.otros-lineas figure.snip1477 .title div:after {
+  bottom: 10px;
+  left: 0;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.otros-lineas figure.snip1477 h2,
+.otros-lineas figure.snip1477 h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.otros-lineas figure.snip1477 h2 {
+  font-weight: 400;
+}
+
+.otros-lineas figure.snip1477 h4 {
+  display: block;
+  font-weight: 700;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  color: #000000;
+}
+
+.otros-lineas figure.snip1477 figcaption {
+  position: absolute;
+  bottom: 42%;
+  left: 25px;
+  text-align: left;
+  opacity: 0;
+  padding: 5px 60px 5px 10px;
+  font-size: 0.8em;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+.otros-lineas figure.snip1477 figcaption p {
+  margin: 0;
+}
+
+.otros-lineas figure.snip1477 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.otros-lineas figure.snip1477:hover img,
+.otros-lineas figure.snip1477.hover img {
+  zoom: 1;
+  filter: alpha(opacity=35);
+  -webkit-opacity: 0.35;
+  opacity: 0.35;
+}
+
+.otros-lineas figure.snip1477:hover .title:before,
+.otros-lineas figure.snip1477.hover .title:before,
+.otros-lineas figure.snip1477:hover .title:after,
+.otros-lineas figure.snip1477.hover .title:after,
+.otros-lineas figure.snip1477:hover .title div:before,
+.otros-lineas figure.snip1477.hover .title div:before,
+.otros-lineas figure.snip1477:hover .title div:after,
+.otros-lineas figure.snip1477.hover .title div:after {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.otros-lineas figure.snip1477:hover .title:before,
+.otros-lineas figure.snip1477.hover .title:before,
+.otros-lineas figure.snip1477:hover .title:after,
+.otros-lineas figure.snip1477.hover .title:after {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.otros-lineas figure.snip1477:hover figcaption,
+.otros-lineas figure.snip1477.hover figcaption {
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.footer{
+  background: rgb(0,0,0);
+  color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+}
