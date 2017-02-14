@@ -1,17 +1,13 @@
-/**{outline: 1px solid red;}*/*/
-img {
-  max-width: 100%; 
-}
+/**{outline: 1px solid red;}*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+body{font-family: 'Titillium Web', sans-serif;}
 
-a { 
-  /*color: #0066CC; */
-  text-decoration: none; 
-}
+img {max-width: 100%;}
 
-a:hover { 
-  color: #CC0000; 
-  /*text-decoration: underline; */
-}
+a {text-decoration: none;}
+a:hover {color: #CC0000;}
+
+.contenido{background: #eee;}
 
 .prenda-producto{
   background: rgb(229,229,229); 
@@ -31,34 +27,45 @@ a:hover {
 .descripcion-producto{
   padding: 30px;
 }
-
-.descripcion-producto ul li{
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  /*border: 1px solid rgb(229,229,229);*/
-  text-align: center;
-  padding: 9px 1px;
+.descripcion-producto ul{
+  margin: 10px 0 0 0;
+  padding: 0; 
+  line-height: 1.8;
 }
-.color1 {background: rgb(218,247,166);} /*#DAF7A6*/
-.color2 {background: rgb(0,218,0);} /*#008000*/
-.color3 {background: rgb(0,255,255);} /*#00ffff*/
-.color4 {background: rgb(0,128,128);} /*#008080*/
-.color5 {background: rgb(0,0,255);} /*0000ff*/
-
-
+.prenda-color li{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.descripcion-producto .circulo-color{  
+     width:30px;
+     height:30px;
+     background: #000;
+     border-radius: 50%;
+}
+.medio-circulo{
+  height:15px;
+  width:30px;
+  border-radius: 90px 90px 0 0;
+  -moz-border-radius: 90px 90px 0 0;
+  -webkit-border-radius: 90px 90px 0 0;
+  background:green;
+}
+.color1 {background: rgb(255,0,0);} /*#ff0000*/  /*ROJO*/
+.color2 {background: rgb(0,0,255);} /*#0000ff*/  /*AZUL*/
+.color3 {background: rgb(0,128,0);} /*#008000*/  /*VERDE*/
+.color4 {background: rgb(255,255,0);} /*#FFFF00*/ /*AMARILLO*/
+.color5 {background: rgb(0,0,0);} /*000*/         /*NEGRO*/
+.color6 {background: rgb(12, 183, 242);} /*‎#0CB7F2*/ /*CELESTE*/
 
 .btnfos {
   color: rgb(21,56,116);
   cursor: pointer;
   display: block;
-  /*font-size: 16px;*/
-  /*font-weight: 400;*/
   line-height: 45px;
   max-width: 40%;
-  /*margin: 0 auto 2em;*/
   position: relative;
-  /*text-transform: uppercase;*/
   vertical-align: middle;
   width: 100%;
   margin: 5px 30%;
