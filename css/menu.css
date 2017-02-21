@@ -33,7 +33,7 @@
     color: white;
     background-color: #000;
 }
-.navbar-default .navbar-nav>li>a {color: white; padding: 30px 25px 30px;}
+.navbar-default .navbar-nav>li>a {color: white; padding: 30px 25px 30px; font-size: 14px;}
 
 .dropdown-menu {
     position: absolute;
@@ -75,7 +75,7 @@
     border: solid black 1px;}
 
 
-#megamenu .mega-dropdown-menu .list-dropdown>ul>li>a{color:#505050; font-weight: 100; line-height: 25px;}
+#megamenu .mega-dropdown-menu .list-dropdown>ul>li>a{color:#505050; font-weight: 100; line-height: 25px; font-size: 14px;}
 #megamenu .mega-dropdown-menu .list-dropdown .dropdown-header{color:rgb(197,36,26); font-size: 15px; padding: 3px 0px; 
   text-transform: uppercase; font-weight: bold;}
 #megamenu .mega-dropdown-menu .col-md-3{padding: 0 25px; border-right: 1px dashed #ccc;}
