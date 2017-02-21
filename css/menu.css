@@ -1,0 +1,137 @@
+/**{outline: 1px solid red;}*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+#navbar{height: 80px; border-radius: 0px;}
+.navbar-default{background-color: rgb(197,36,26); border: 0px;       margin-bottom: 0px; }
+#navbar .navbar-header{height: 80px;}
+.logo{margin-top: -1px;position: absolute;}
+.logo img{width: 220px; margin-left: 30px;}
+#navbar .navbar-collapse .navbar-right{margin-top: 27px;}
+.navbar-default .navbar-nav .linea {color: #fff; top: 16px;}
+.nav-tabs {display: inline-block; border-bottom: none; padding-top: 15px; font-weight: bold;}
+.nav-tabs > li > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {border: none;border-radius: 0;}
+.nav-list { border-bottom: px solid #eee; }
+.nav-list > li { padding: 20px 15px 15px;}
+.nav-list > li:last-child { border-right: 0px solid #eee; }
+.nav-list > li > a:hover { text-decoration: none; }
+.nav-list > li > a > span {display: block; font-weight: bold; text-transform: uppercase;}
+.mega-dropdown { position: static !important; }
+.mega-dropdown-menu {padding: 20px 15px 15px; text-align: center; width: 100%;}
+#login-dp .help-block{ font-size:12px}
+#login-dp .bottom{background-color:rgba(255,255,255,.8); border-top:1px solid #ddd; clear:both; padding:14px;}
+.navbar-nav {padding-left: 40px; /*padding-top: 25px;*/}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: #00486c;}
+.container-fluid {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #000;
+}
+.navbar-default .navbar-nav>li>a {color: white; padding: 30px 25px 30px;}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 20px;
+    margin: 2px 0px 0px;
+    font-size: 14px;
+    list-style: none;
+    background-color: white;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.14902);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.172549) 0px 6px 12px;
+}
+.nav-list > li {padding: 20px 15px 15px; border-left:0px;}
+.nav-list { border-bottom: 0px;}
+.navbar-nav .border{border-right: 1px solid #ccc;}
+.navbar-nav ._1{border-left: 1px solid #ccc;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+ color:#fff; background: #000;}
+.navbar-default .navbar-nav>li>a:hover{color:#fff; background: #000;}
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: white; cursor: default; background-color: #428bca;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: black; cursor: default; background-color: rgb(255, 255, 255);
+    border: solid black 1px;}
+
+
+#megamenu .mega-dropdown-menu .list-dropdown>ul>li>a{color:#505050; font-weight: 100; line-height: 25px;}
+#megamenu .mega-dropdown-menu .list-dropdown .dropdown-header{color:rgb(197,36,26); font-size: 15px; padding: 3px 0px; 
+  text-transform: uppercase; font-weight: bold;}
+#megamenu .mega-dropdown-menu .col-md-3{padding: 0 25px; border-right: 1px dashed #ccc;}
+#megamenu .mega-dropdown-menu .col-ultimo{ border-right: 0px;}
+
+
+@media (max-width: 767px){
+    .navbar-default{background:rgb(197,36,26) ; border-color: transparent;}
+    /*.navbar-default .container-fluid{background-color: rgba(255,255,255,.7);}*/
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{border-color: gray; padding: 0px;}
+  .navbar-toggle{margin-top: 20px;}
+  .navbar-header .navbar-toggle:hover{background-color: transparent; border-color:rgb(251,65,65); }
+  .navbar-header .navbar-toggle:hover span{background-color: rgb(251,65,65);}
+  .navbar-default .navbar-nav>li>a {color: #000;}
+  .navbar-nav>li>a{padding-bottom: 7px;}
+  .navbar-nav>li>.dropdown-menu{background-color:rgba(255,255,255,.8); padding-top: 10px;}
+    .navbar-default .navbar-header .navbar-brand{padding: 0px;}
+}
+
+
+/*-----------redes-------*/
+.redes section .activity .email a:hover{color:#2199e8; /*#fff; font-weight: bold; text-shadow:0 1px 0 #000;*/ }
+.redes .contact {display: inline-block; margin: 0 10px;}
+.redes section a {color: #fff; text-decoration: none; font-size: 15px;}
+.redes section a:hover { color: #ccc;}
+.redes section a:hover i { color: #000; font-size: 17px;}
+.redes section .activity {padding: 0; list-style: none; margin-bottom: 0px; margin-right: 15px;}
+.redes section .activity i {color: rgb(197,36,26); font-size: 19px; margin-top: 6px;}
+.redes section .activity .text-contact i {color: #fff; font-size: 17px; width: 20px;}
+.redes section .activity .red {
+  -webkit-transition: box-shadow 0.2s ease;
+  -moz-transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; border-radius: 50%; color: #ffb600; display: inline-block; font-size: .889em; height: 2.5em; margin:0px 5px 0px 0;
+  position: relative; text-align: center; width: 2.5em; line-height: 2.5em;}
+.redes section .activity .red a {position: absolute; top: 0; right: 0; bottom: 0; left: 0;}
+.redes section .activity .red:hover { box-shadow: inset 0 0 0 3px rgb(197,36,26);}
+.redes section .activity .red:hover:before {
+  -webkit-transform: scale(0.925);
+  -moz-transform: scale(0.925);
+  -ms-transform: scale(0.925);
+  -o-transform: scale(0.925);
+  transform: scale(0.925);
+  box-shadow: 0 0 0 1px #ccc;
+  opacity: .5;
+}
+.redes section .activity .red:before {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-radius: 50%;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
