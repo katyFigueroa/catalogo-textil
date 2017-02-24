@@ -9,7 +9,6 @@
     <!-- <link rel="stylesheet" href="css/prenda.css"> -->
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/formulario.css">
-    <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
      <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
@@ -38,9 +37,9 @@
         <div class="navbar-collapse style= collapse in" id="bs-megadropdown-tabs" style="
         padding-left: 0px;">
             <ul class="nav navbar-nav   ">
-                <li class="border _1 active"><a href="catálogo-textil.html"> INICIO</a></li>
+                <li class="border _1 "><a href="catálogo-textil.html"> INICIO</a></li>
                 <li class="border"><a href="quienes somos.html"> QUIÉNES SOMOS</a></li>
-                <li class="dropdown mega-dropdown border" id="megamenu">
+                <li class="active dropdown mega-dropdown border" id="megamenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">CATÁLOGO <span class="caret"></span></a>              
                         <ul class="dropdown-menu mega-dropdown-menu">
                                 <li class="col-md-3 list-dropdown">
@@ -154,59 +153,49 @@
         <div class="container">
             <div class="row">
                 <div class="board">
-                    <!-- <h2>Welcome to IGHALO!<sup>™</sup></h2>-->
-                    
                     <div class="tab-content">
-	                    <div class="tab-pane fade" id="home">
-	                        
-	                    </div>
-	                    <div class="tab-pane fade" id="profile">
-	                                                 
-	                    </div>
 	                    <div class="tab-pane fade in active" id="messages">
 	                        <div class="row modelo-prenda">
-									<div class="col-md-12">
-										<div class="col-md-6">
+									<div class="col-md-12 fila">
+										<div class="col-md-6 text-center border-colum">
 											<img class="zoom_01" src='img/small/camisa-modelo3.png' data-zoom-image="img/large/camisa-modelo3.jpg"/>
 										</div>
 										<div class="col-md-6">
-											<div class="">
-												
-											</div>
-											<div class="col-md-12">
-												<h3 class="titulo-prenda">Serie <span>CAMISAS</span></h3>
-												<h4>CAMISA CON APLICACIONES</h4>
-												<ul class="list-unstyled list-inline lista-tallas ">
-													<li>S</li>
-													<li>/</li>
-													<li>M</li>
-													<li>/</li>
-													<li>L</li>
-													<li>/</li>
-													<li>XL</li>
-												</ul>
-												<hr>
-												
-											</div>
-											<div class="col-md-12">
-												<p>Camisa de manga larga o corta. Con aplicaciones y detalles de acuerdo al cliente.</p>
-												<hr>
-											</div>
-											<div class="col-md-12">
-												<ul class="list-inline list-unstyled">
-													<li>Material:</li>
-													<li>Sarga 65% Poliester - 35% algodón</li>
-												</ul>
-												<hr>
-											</div>
-											<div class="col-md-12">
-												<ul class="list-unstyled list-inline prenda-color">
-													<li class="color-circle color1"></li>
-													<li class="color-circle color2"></li>
-													<li class="color-circle color3"></li>
-													<li class="color-circle color4"></li>
-													<li class="color-circle color5"></li>
-												</ul>
+											<div class="descripcion">
+												<div class="col-md-12">
+													<h3 class="titulo-prenda">Serie <span>CAMISAS</span></h3>
+													<h4>CAMISA CON APLICACIONES</h4>
+													<ul class="list-unstyled list-inline lista-tallas ">
+														<li>S</li>
+														<li>/</li>
+														<li>M</li>
+														<li>/</li>
+														<li>L</li>
+														<li>/</li>
+														<li>XL</li>
+													</ul>
+													<hr>
+												</div>
+												<div class="col-md-12">
+													<p>Camisa de manga larga o corta. Con aplicaciones y detalles de acuerdo al cliente.</p>
+													<hr>
+												</div>
+												<div class="col-md-12">
+													<ul class="list-inline list-unstyled">
+														<li>Material:</li>
+														<li>Sarga 65% Poliester - 35% algodón</li>
+													</ul>
+													<hr>
+												</div>
+												<div class="col-md-12">
+													<ul class="list-unstyled list-inline prenda-color">
+														<li class="color-circle color1"></li>
+														<li class="color-circle color2"></li>
+														<li class="color-circle color3"></li>
+														<li class="color-circle color4"></li>
+														<li class="color-circle color5"></li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -221,7 +210,10 @@
 								<div class="clearfix"></div>
 						</div>
 					</div>
-					<hr>
+					<div class="divisor col-md-12">
+						<h4>Productos relacionados</h4>
+						<hr>
+					</div>
 					<div class="board-inner col-md-12">
 	                    <ul class="nav nav-tabs" id="myTab">
 	                    	<div class="liner"></div>
@@ -231,8 +223,8 @@
 					                    <div class="product ">
 					                        <img src="img/small/camisa-modelo1.png">
 					                        <div class="text">
-					                            <h5>CAMISA BASICA A</h5>
-					                            <p>Manga Larga</p>
+					                            <h5>Serie <span>CORPORATIVO</span></h5>
+					                            <p>Camisa básica - manga larga</p>
 					                        </div>
 					                    </div>
 					                </div> 
@@ -244,8 +236,8 @@
 					                    <div class="product ">
 					                        <img src="img/small/camisa-modelo2.png">
 					                        <div class="text">
-					                            <h5>CAMISA BASICA B</h5>
-					                            <p>Manga Corta</p>					                            
+					                            <h5>Serie <span>CORPORATIVO</span></h5>
+					                            <p>Camisa básica - manga corta</p>					                            
 					                        </div>
 					                    </div>
 					                </div> 
@@ -257,8 +249,8 @@
 					                    <div class="product ">
 					                        <img src="img/small/camisa-modelo3.png">
 					                        <div class="text">
-					                            <h5>CAMISA CON APLICACIONES</h5>
-					                            <p>Botones, bolsillos, pinzas</p>
+					                            <h5>Serie <span>CORPORATIVO</span></h5>
+					                            <p>Camisa básica - con aplicaciones</p>
 					                        </div>
 					                    </div>
 					                </div>
@@ -443,32 +435,74 @@
 	</div>
 </div>
 <div class="footer">
-        <div class="container">
-            <!-- <div class="row">
-                <h4> Nuestros Clientes</h4>
-                <hr>
-                <div class="col-md-2"><img src="img/clientes/tisur.png" alt="" class="img-responsive"></div>
-                <div class="col-md-2"><img src="img/clientes/grupo-gloria.png" alt="" class="img-responsive"></div>
-                <div class="col-md-2"><img src="img/clientes/minera-ares.png" alt="" class="img-responsive"></div>
-                <div class="col-md-2"><img src="img/clientes/claro.png" alt="" class="img-responsive"></div>
-                <div class="col-md-2"><img src="img/clientes/colegio-lasalle.png" alt="" class="img-responsive"></div>
-                <div class="col-md-2"><img src="img/clientes/rico-pollo.png" alt="" class="img-responsive"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <h4 class="">CONTACTO</h4>
+                <ul class="list-unstyled ">
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> 959174008</li>
+                    <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i> ventas@pazperuong.org</a></li>
+                    <li><a href="https://www.facebook.com/confeccionesPazPeru/"><i class="fa fa-facebook-square" aria-hidden="true"></i> Confecciones Paz Perú</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCRG-gn5MD-v2oaclvDTegnQ"><i class="fa fa-youtube-play" aria-hidden="true"></i> Confecciones Paz Perú</a></li>
+                    <li><a><i class="fa fa-map-marker" aria-hidden="true"></i>  Av. Salaverry S/N Urb. Lara</a></li>
+                </ul>
             </div>
-            <div class="row" style="margin: 25px auto;">
-                <div class="col-md-2"><img src="img/clientes/egasa.png" alt="" class="img-responsive"></div>
-                <div class="col-md-2"><img src="img/clientes/cuna-mas.png" alt="" class="img-responsive"></div>
-                <div class="col-md-2"><img src="img/clientes/presto.png" alt="" class="img-responsive"></div>
-                <div class="col-md-2"><img src="img/clientes/beneficencia-publica.png" alt="" class="img-responsive"></div>
-                <div class="col-md-2"><img src="img/clientes/futura-schools.png" alt="" class="img-responsive"></div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <h4>NUESTRAS LÍNEAS</h4>
+                <ul class="list-unstyled">
+                    <li><a href=""> Linea Corporativa</a></li>
+                    <li><a href="">Linea Industrial</a></li>
+                    <li><a href="">Linea Deportiva</a></li>
+                    <li><a href="">Linea Escolar</a></li>
+                    <li><a href="">Linea Publicitaria</a></li>
+                    <li><a href="">Otros </a></li>
+                </ul>
             </div>
-
-            <hr> -->
-            <div class="row" style="margin: 15px auto;">
-                <div class="col-md-12 text-center" >
-                    ONG PAZ PERU - CONFECCIONES TEXTILES
+            <div class="col-md-6 col-sm-6 col-xs-12 clientes">
+                <div class="row">
+                    <h4 class="text-center">NUESTROS CLIENTES</h4>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <ul class="list-unstyled clientes1">
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Inversiones Nacionales de Turismo</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Tisur (Terminal Internacional del Sur)</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Grupo Gloria</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Compañía Minera Ares</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Claro</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Colegio de la Salle</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Rico Pollo</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 col2-xs">
+                        <ul class="list-unstyled clientes1">
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Egasa</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Programa Nacional CUNAMAS</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Presto</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Benefiencia Pública de Arequipa</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Asociación Casa Chapi</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Futura Schools</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </div>   
+    </div>
+</div>
+<div class="footer2">
+    <div class="container">
+        <div class="row" style="margin: 15px auto;">
+            <div class="col-md-6 col-sm-6 col-xs-6" >
+                <i class="fa fa-copyright"></i> 2017 <span>CONFECCIONES TEXTILES PAZ PERÚ</span> Todos los derechos reservados
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6  menu-footer">
+                <ul class="list-unstyled list-inline pull-right">
+                    <li><a href="index.html"> Inicio</a></li><li>|</li>
+                    <li><a href="quienes somos.html"> Quiénes somos</a></li><li>|</li>
+                    <li><a href="#"> Catálogo</a></li><li>|</li>
+                    <li><a href="contacto.html"> Contacto</a></li>
+                </ul>
+            </div>
         </div>
+    </div>
 </div>
 
 <script src="js/zoom.js"></script>

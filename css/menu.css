@@ -67,12 +67,8 @@
  color:#fff; background: #000;}
 .navbar-default .navbar-nav>li>a:hover{color:#fff; background: #000;}
 
-
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  color: white; cursor: default; background-color: #428bca;}
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  color: black; cursor: default; background-color: rgb(255, 255, 255);
-    border: solid black 1px;}
+  color: #fff; cursor: default; background-color: #428bca;}
 
 
 #megamenu .mega-dropdown-menu .list-dropdown>ul>li>a{color:#505050; font-weight: 100; line-height: 25px; font-size: 14px;}
@@ -81,23 +77,8 @@
 #megamenu .mega-dropdown-menu .col-md-3{padding: 0 25px; border-right: 1px dashed #ccc;}
 #megamenu .mega-dropdown-menu .col-ultimo{ border-right: 0px;}
 
-
-@media (max-width: 767px){
-    .navbar-default{background:rgb(197,36,26) ; border-color: transparent;}
-    /*.navbar-default .container-fluid{background-color: rgba(255,255,255,.7);}*/
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form{border-color: gray; padding: 0px;}
-  .navbar-toggle{margin-top: 20px;}
-  .navbar-header .navbar-toggle:hover{background-color: transparent; border-color:rgb(251,65,65); }
-  .navbar-header .navbar-toggle:hover span{background-color: rgb(251,65,65);}
-  .navbar-default .navbar-nav>li>a {color: #000;}
-  .navbar-nav>li>a{padding-bottom: 7px;}
-  .navbar-nav>li>.dropdown-menu{background-color:rgba(255,255,255,.8); padding-top: 10px;}
-    .navbar-default .navbar-header .navbar-brand{padding: 0px;}
-}
-
-
 /*-----------redes-------*/
-.redes section .activity .email a:hover{color:#2199e8; /*#fff; font-weight: bold; text-shadow:0 1px 0 #000;*/ }
+.redes section .activity .email a:hover{color:#2199e8;}
 .redes .contact {display: inline-block; margin: 0 10px;}
 .redes section a {color: #fff; text-decoration: none; font-size: 15px;}
 .redes section a:hover { color: #ccc;}
@@ -134,4 +115,60 @@
   position: absolute;
   right: 0;
   top: 0;
+}
+
+
+
+/*-----------footer----------*/
+.footer{background: rgb(197,36,26); padding: 15px 0; color: #fff; font-size: 13px;}
+.footer a{color: #fff;}
+.footer ul i{width: 18px;}
+.footer .clientes1 i{font-size: 14px; width: 10px;}
+.footer h4{margin-bottom: 10px; font-size: 16px;}
+.footer2{background: rgb(0,0,0); color: #fff; font-family: 'Titillium Web', sans-serif; font-size: 12px;}
+.footer2 span{color: rgb(197,36,26);}
+.footer2 ul a{color: rgb(197,36,26);}
+
+
+@media (max-width: 1220px){#navbar .navbar-right .red, .tel, .span{visibility: hidden;} }
+@media (max-width: 1171px){#navbar .navbar-collapse .navbar-right{margin-top: -55px;} }
+@media (max-width: 1000px){.navbar-nav{padding-left: 0px;} }
+@media (max-width: 768px){.navbar-default .navbar-nav>li>a{padding: 30px 24px 30px;} }
+@media (max-width: 767px){
+  .navbar-default .container-fluid{background-color: rgb(197,36,26);}
+  .navbar-default .navbar-collapse {padding-bottom: 40px; max-height: 100%;  /*340px*/ }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{border-color:#ccc;}
+  .navbar-nav .border{border-right: 0px;}
+  .navbar-default .navbar-toggle{margin-top: 20px; border-color: #ccc;}
+  .navbar-default .navbar-toggle .icon-bar{background-color: #ccc;}
+  .navbar-header .navbar-toggle:hover{background-color: transparent; border-color:#fff; }
+  .navbar-header .navbar-toggle:hover span{background-color: #fff;}
+  .navbar-default .navbar-nav>li>a {color: #fff; padding:10px 25px; font-size: 13px; margin-bottom: 3px;}
+  .mega-dropdown-menu {padding: 0px;}
+  #megamenu .mega-dropdown-menu .list-dropdown>ul>li>a{color:#fff; font-weight: 100; line-height: 20px;}
+  #megamenu .mega-dropdown-menu .list-dropdown .dropdown-header{color:#fff; font-size: 14px; padding: 3px 0px; font-weight: bold;}
+  #megamenu .mega-dropdown-menu .col-md-3{ border-right:0px;}
+  #megamenu .mega-dropdown-menu .col-ultimo{ border-right: 0px;}
+
+    .navbar-nav>li>.dropdown-menu{background-color:rgba(255,255,255,.8); padding-top: 0px;}
+    .navbar-default .navbar-header .navbar-brand{padding: 0px;}
+}
+
+@media (max-width: 647px){
+  .footer2 .menu-footer{text-align: center;}
+}
+@media (max-width: 425px){
+  #logotype img{width: 130px; margin-top: 3px;}
+  .navbar-default .navbar-toggle{margin-top: 18px;}
+  .navbar-toggle{padding: 7px 5px;}
+  .navbar-toggle .icon-bar{width: 19px; height: 1px;}
+  #navbar{height: 60px;}
+  #navbar .navbar-header{height: 60px;}
+}
+@media (max-width: 310px){
+  .footer .col-xs-6{width: 100%;}
+  .footer2 .col-xs-6{width: 100%;}
+  .footer .col2-xs{margin-top: -10px;}
+  .footer2 .menu-footer{margin-top:15px; }
+
 }
