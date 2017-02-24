@@ -39,10 +39,10 @@ a:hover {color: #CC0000;}
   margin-left: 10px;
 }
 .descripcion-producto .circulo-color{  
-     width:30px;
-     height:30px;
-     background: #000;
-     border-radius: 50%;
+  width:30px;
+  height:30px;
+  background: #000;
+  border-radius: 50%;
 }
 .medio-circulo{
   height:15px;
@@ -52,6 +52,8 @@ a:hover {color: #CC0000;}
   -webkit-border-radius: 90px 90px 0 0;
   background:green;
 }
+
+.color-circle{ border: 1px solid #000; }
 .color1 {background: rgb(255,0,0);} /*#ff0000*/  /*ROJO*/
 .color2 {background: rgb(0,0,255);} /*#0000ff*/  /*AZUL*/
 .color3 {background: rgb(0,128,0);} /*#008000*/  /*VERDE*/
