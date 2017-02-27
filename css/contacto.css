@@ -2,16 +2,17 @@
 body{font-family: 'Titillium Web', sans-serif;}
 /**{outline: 1px solid red;}*/
 
-.fondo-direccion{ background: #eee; padding: 10px 0 40px;
-/*   background: #858d98;
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#858d98', endColorstr='#4a525d',GradientType=1 ); 
-
-  background: -moz-radial-gradient(top, ellipse cover,  #858d98 1%, #4a525d 99%); 
+.fondo-direccion{ background: #eee; padding: 10px 0 40px;}
+.fondo-formulario{
+   background: #858d98;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#858d98', endColorstr='#4a525d',GradientType=1 );
+  background: -moz-radial-gradient(top, ellipse cover,  #858d98 1%, #4a525d 99%);
   background: -webkit-gradient(radial, top top, 0px, top top, 100%, color-stop(1%,#858d98), color-stop(99%,#4a525d));
-  background: -webkit-radial-gradient(top, ellipse cover,  #858d98 1%,#4a525d 99%); 
+  background: -webkit-radial-gradient(top, ellipse cover,  #858d98 1%,#4a525d 99%);
   background: -o-radial-gradient(top, ellipse cover,  #858d98 1%,#4a525d 99%);
-  background: -ms-radial-gradient(top, ellipse cover,  #858d98 1%,#4a525d 99%); 
-  background: radial-gradient(ellipse at top,  #858d98 1%,#4a525d 99%);*/
+  background: -ms-radial-gradient(top, ellipse cover,  #858d98 1%,#4a525d 99%);
+  background: radial-gradient(ellipse at top,  #858d98 1%,#4a525d 99%);
+  padding: 20px 0px;
 }
 .formulario input, .formulario textarea, .formulario select{
   width: 100%;
@@ -24,8 +25,9 @@ body{font-family: 'Titillium Web', sans-serif;}
   margin-bottom:15px; position: relative;
 }
 .formulario{color: #fff;}
-.formulario h2,label {color: rgb(197,36,26); text-transform: uppercase; margin-bottom: 15px;}
-.formulario hr {border-bottom: 0px solid #eee; margin-top: 15px; margin-bottom: 25px;}
+.formulario h2 {color: rgb(197,36,26); text-transform: uppercase; margin-bottom: 20px;}
+.formulario label {color:#fff; text-transform: uppercase; margin-bottom: 15px;}
+/*.formulario hr {border-bottom: 0px solid #eee; margin-top: 15px; margin-bottom: 25px;}*/
 .formulario .direccion .mapa iframe {width: 100%;border: 1px solid #ccc;}
 .formulario #contact-area select option {background-color:#000; color: #fff; }
 .formulario textarea{border: 1px solid transparent; }
@@ -40,7 +42,7 @@ input.submit-button {
   width: 100px;
   margin: 5px 40%;
   color: #fff;
-  background-color:rgba(197,36,26,.9);
+  border: 1px solid #eee;
   
   -moz-transition:all 0.1s ease-in-out;
   -webkit-transition:all 0.1s ease-in-out;
@@ -67,10 +69,18 @@ input.submit-button:hover {color:#fff; background-color:#333; border: 1px solid 
 .formulario select{width: 69.4%; font-weight: lighter; color: #fff;}
 
 /*----------PREGUNTAS----------------*/
-/*.desktop-faq-container {margin: auto;}
-.tabs{margin: 30px auto 50px;}
-.tabs label {text-align: center; color: #858d98;}
-.content{ background: #fff; }
+.desktop-faq-container {margin: 20px auto;}
+/*.tabs{margin: 15px auto 50px;}*/
+.tabs label {text-align: center;color: #858d98;}
+.content{ background: #858d98;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#858d98', endColorstr='#4a525d',GradientType=1 );
+  background: -moz-radial-gradient(top, ellipse cover,  #858d98 1%, #4a525d 99%);
+  background: -webkit-gradient(radial, top top, 0px, top top, 100%, color-stop(1%,#858d98), color-stop(99%,#4a525d));
+  background: -webkit-radial-gradient(top, ellipse cover,  #858d98 1%,#4a525d 99%);
+  background: -o-radial-gradient(top, ellipse cover,  #858d98 1%,#4a525d 99%);
+  background: -ms-radial-gradient(top, ellipse cover,  #858d98 1%,#4a525d 99%);
+  background: radial-gradient(ellipse at top,  #858d98 1%,#4a525d 99%);
+}
 input[name="tabs"] { display: none;}
 input[name="tabs"]#tab-1:checked ~ .content .tab:nth-of-type(1) { display: inline-block;}
 input[name="tabs"]#tab-1:checked ~ .tabs label:nth-child(1) {color: #242b36;}
@@ -100,7 +110,7 @@ input[name="tabs"]#tab-6:checked ~ .tabs label:nth-child(6):after {width: calc(1
 .tabs {-webkit-overflow-scrolling: touch; position: static;}
 .tabs label {
   display: inline-block;
-  padding: 8px;
+  padding-top: 15px; padding-bottom: 15px; margin-bottom: 0px;
   position: static;
   color: black;
   font-weight: 700;
@@ -110,17 +120,39 @@ input[name="tabs"]#tab-6:checked ~ .tabs label:nth-child(6):after {width: calc(1
   cursor: pointer;
 }
 .tabs label {text-align: center;}
-.desktop-faq-container .tab {display: none; padding: 0 20px;}
+.desktop-faq-container .tab {display: none; background:#fff; padding: 0 15px; width: 100%;}
 .element {background-color: #fbfbfb; min-height: 160px;}
-.element .circle {background-color: white;margin: auto; margin-top: 10px; height: 80px; width: 80px; border-radius: 90px;}
+.element .circle {
+  background-color: white;
+  margin: auto;
+  margin-top: 10px;
+  height: 80px;
+  width: 80px;
+  border-radius: 90px;
+}
+.element h3 {
+  display: block;
+  margin: auto;
+  min-height: 60px;
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #858d98;
+  display: block;
+  text-transform: uppercase;
+}
+.element:hover {-webkit-box-shadow: 0px 5px 19px 3px rgba(61, 61, 61, 0.1); 
+  -moz-box-shadow: 0px 5px 19px 3px rgba(61, 61, 61, 0.1);
+  box-shadow: 0px 5px 19px 3px rgba(0,0,0,.4);
+}
+.element img { margin-top: 20px; height: 50px; max-width: 100px;}
 summary {outline:none; background: #eee;}
-summary::-webkit-details-marker {display: none;}
-details summary {background-color: #eee; padding: 5px; margin-top: 30px;}
-details[open] summary { background: ; color: ;}
-.content {max-width: 1160px; margin: auto;} 
-.content summary {font-size: 16px; line-height: 27px; text-decoration: none; margin-bottom: 10px; cursor: pointer;}
+sumary::-webkit-details-marker {display: none}
+details summary {background-color: #eee; padding: 5px; margin-top: 20px;}
+details[open] summary {background: ; color: ;}
+.content summary {font-size: 16px; line-height: 27px; text-decoration: none; margin-bottom: 10px; cursor: pointer; color:rgb(50,57,70);}
 .content p {font-size: 14px;}
-*/
+
 
 @media (max-width: 767px){
   .formulario .direccion .lugar{margin-top: 10px;}
