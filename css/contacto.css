@@ -2,7 +2,7 @@
 body{font-family: 'Titillium Web', sans-serif;}
 /**{outline: 1px solid red;}*/
 
-.fondo-formulario{ background: #eee; padding: 10px 0 40px;
+.fondo-direccion{ background: #eee; padding: 10px 0 40px;
 /*   background: #858d98;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#858d98', endColorstr='#4a525d',GradientType=1 ); 
 
@@ -25,7 +25,7 @@ body{font-family: 'Titillium Web', sans-serif;}
 }
 .formulario{color: #fff;}
 .formulario h2,label {color: rgb(197,36,26); text-transform: uppercase; margin-bottom: 15px;}
-.formulario hr {border-bottom: 1px solid rgb(197,36,26); margin-top: 15px; margin-bottom: 25px;}
+.formulario hr {border-bottom: 0px solid #eee; margin-top: 15px; margin-bottom: 25px;}
 .formulario .direccion .mapa iframe {width: 100%;border: 1px solid #ccc;}
 .formulario #contact-area select option {background-color:#000; color: #fff; }
 .formulario textarea{border: 1px solid transparent; }

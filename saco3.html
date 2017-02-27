@@ -267,6 +267,33 @@
 				</div>
 			</div>
 </section>
+<div class="fondo-formulario">
+    <div class="container formulario">
+        <h3>Contáctanos</h3>
+        <hr>
+        <div id="contact-area">
+            <form  method="POST" action="datos.php">
+                <div class="col-md-6">
+                    <input type="text" name="nombre" id="Nombres" placeholder="Nombres y Apellidos"/>
+                    <input type="text" name="correo" id="Correo" placeholder="Correo Electrónico"/>
+                    <input type="text" name="telefono" id="Telefono" placeholder="Teléfono"/>
+                    <input type="text" name="asunto" id="Asunto" placeholder="Asunto"/>
+                </div>
+                <div class="col-md-6">
+                    <label>Elija su prenda:</label>
+                    <select id="color" name="prenda">
+                        <option selected="selected" value="">Elija opción</option>
+                        <option value="Prenda 1">Prenda 1</option>
+                        <option value="Prenda 2">Prenda 2</option>
+                        <option value="Prenda 3">Prenda 3</option>
+                    </select>
+                    <textarea name="mensaje" rows="5" cols="20" id="Message" placeholder="Message"></textarea>
+                    <input type="submit" name="submit" value="Submit" class="submit-button"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 <div class="footer">
     <div class="container">
         <div class="row">
