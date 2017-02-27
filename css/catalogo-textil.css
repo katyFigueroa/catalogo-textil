@@ -26,7 +26,7 @@ body{font-family: 'Titillium Web', sans-serif;}
 .portada .box-in h1 {font-size: 48px; font-weight: bold; text-shadow:-2px 1px 2px #2d3129; color: #fff;}
 .portada .box-in ul {font-size: 18px; color: #fff; text-shadow:0px 1px 1px #2d3129; line-height:22px; }
 .portada .box-in {z-index: 1; padding-top: 80px; text-align: right;}
-.portada .list-icons img{width: 30%;}
+/*.portada .list-icons img{width: 30%;}*/
 /*.navbar-wrapper {position: absolute; top: 0; left: 0; right: 0; z-index: 10;}
 .carousel-caption {z-index: 1; bottom: 80px; text-align: left;}
 .carousel-caption2 {z-index: 1; bottom: 80px; text-align: right;}
@@ -53,8 +53,14 @@ body{font-family: 'Titillium Web', sans-serif;}
   .navbar-wrapper .navbar {border-radius: 4px;}
   .carousel-caption p {margin-bottom: 20px; font-size: 21px; line-height: 1.4;}
 }*/
-
+/*------------icons------------*/
+/*.icons {padding: 30px 0;}
+.icons .col-md-2{width: 20%; text-align: center;}
+.icons .col-md-2 img{margin: auto; height: 80px;}
+.icons h4{color: rgb(197,36,26);}
+.icons .imagen{padding: 10px;}*/
 /*-------------gallery---------*/
+.section-info{padding:10px 0; }
 .section-product {background-color: #eee; padding-top: 10px;}
 .section-product img{width: 100%;}
 
@@ -297,15 +303,15 @@ figure.snip1190:hover .square div:after, figure.snip1190.hover .square div:after
   transition-delay: 0.2s;
 }
 
+/*---------button scroll------*/
+.footer .scrollup{width:40px; height:40px; opacity:0.7; bottom:55px; position:fixed; right:95px;background:rgba(50,57,70,.8); border-radius: 50%; display:none; cursor:pointer;}
+.footer .scrollup i{color: white;padding: 7px; margin-left: 5px; font-size: 25px;}
+.footer .scrollup:hover{background-color: rgba(229,229,229,.8);}
+.footer .scrollup:hover i{color: gray;}
 
-.footer{
-  background: rgb(0,0,0);
-  color: #fff;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 12px;
-  font-weight: lighter;
+@media only screen and (min-width: 1441px ) and (max-width: 1920px){
+  .footer .scrollup{right: 200px;}
 }
-
 @media (max-width: 767px)  {
   .section-product .gallery .col-xs-6 .product{margin-bottom: 15px;}
 }
