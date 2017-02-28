@@ -1,5 +1,7 @@
 .lineas .nav-tabs {display: inline-block; border-bottom: none; padding-top: 15px; font-weight: bold;}
 .lineas .navbar-nav {padding-left: 40px; /*padding-top: 25px;*/}
+.lineas .board-inner{ padding: 0 24%;}
+
 .descripcion-linea .snip1446 {
   position: relative;
   float: left;
