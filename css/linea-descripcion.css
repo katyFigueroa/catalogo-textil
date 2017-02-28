@@ -1,30 +1,30 @@
-.lineas .nav-tabs {display: inline-block; border-bottom: none; padding-top: 15px; font-weight: bold;}
-.lineas .navbar-nav {padding-left: 40px; /*padding-top: 25px;*/}
-.lineas .board-inner{ padding: 0 24%;}
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+body{font-family: 'Titillium Web', sans-serif;}
+/**{outline: 1px solid red;}*/
 
-.descripcion-linea .snip1446 {
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  min-width: 230px;
-  max-width: 315px;
-  max-height: 230px;
-  width: 100%;
-  color: #ffffff;
-  text-align: center;
-  font-size: 16px;
-}
+.section-info{padding: 20px 0 40px;}
+.section-info .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+  background-color: rgb(197,36,26); font-weight: 100; border: 1px solid rgb(197,36,26);}
+.section-info .nav-tabs>li>a{color: #000; font-weight: 400; border: 1px solid #a09d9b; margin-right: 0px;}
+.section-info .nav-tabs > li.active > a{color: #fff;}
+.section-info .nav-tabs > li a:hover{background-color: #000; color: #fff; border: 1px solid #ccc}
+.section-info .nav-tabs>li{float: none; margin: 2px 0; display: inline-block; padding-right: 0px; padding-left: 0px;}
+.lineas .tab-content .title{margin: 30px 0;}
+.lineas .tab-content .title h2{color: rgb(197,36,26);}
+.lineas .tab-content .title h4{color: #505050; font-size: 17px;}
+.lineas .nav-tabs {display: inline-block; border-bottom: none; padding-top: 15px; font-weight: bold;}
+.lineas .navbar-nav {padding-left: 40px;}
+.lineas .tab-content .btn{background-color: rgb(197,36,26); border-radius: 0px;}
+
+.descripcion-linea .snip1446 {position: relative; float: left; overflow: hidden; margin: 10px 0px; width: 100%; color: #ffffff;
+  text-align: center; font-size: 16px; border: 1px solid #a09d9b; padding: 10px 0;}
 .descripcion-linea .snip1446 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.descripcion-linea  .snip1446 img {
-  opacity: 1;
-  width: 100%;
-}
+.descripcion-linea  .snip1446 img {opacity: 1; width: 100%;}
 .descripcion-linea .snip1446:after,
 .descripcion-linea .snip1446:before,
 .descripcion-linea .snip1446 figcaption:after,
@@ -74,7 +74,7 @@
 .descripcion-linea .snip1446 h3,
 .descripcion-linea .snip1446 p,
 .descripcion-linea .snip1446 .icons {
-  margin: 0;
+ /* margin: 0;*/
   width: 100%;
   opacity: 0;
 }
@@ -110,7 +110,7 @@
 .descripcion-linea .snip1446:hover figcaption:before,
 .descripcion-linea .snip1446.hover figcaption:before {
   top: 0;
-  opacity: 0.8;
+  opacity: 0.3;  /*---0.8----*/
 }
 .descripcion-linea .snip1446:hover figcaption h3,
 .descripcion-linea .snip1446.hover figcaption h3,
@@ -131,6 +131,7 @@
 .descripcion-linea .snip1446.hover figcaption p {
   opacity: 0.7;
 }
-/*.nav-tabs li{
-    width: 13%;
-}*/
+
+@media (max-width: 400px) {
+  .lineas .tab-content .col-xs-6{width: 100%;}
+}

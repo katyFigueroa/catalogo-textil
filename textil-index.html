@@ -2,18 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Catalogo Paz Perú</title>
+	<title>Lineas</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/prenda.css">
-    <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/linea-descripcion.css">
-    <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script src='js/jquery-1.8.3.min.js'></script>
@@ -21,8 +18,8 @@
 
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="js/collapse.js"></script>
-	<script src='js/jquery.elevatezoom-3.0.8.min.js'></script>
+    <!-- <script src="js/collapse.js"></script>
+	<script src='js/jquery.elevatezoom-3.0.8.min.js'></script> -->
 </head>
 <body>
 
@@ -40,9 +37,9 @@
         <div class="navbar-collapse style= collapse in" id="bs-megadropdown-tabs" style="
         padding-left: 0px;">
             <ul class="nav navbar-nav   ">
-                <li class="border _1 active"><a href="catálogo-textil.html"> INICIO</a></li>
+                <li class="border _1 "><a href="catálogo-textil.html"> INICIO</a></li>
                 <li class="border"><a href="quienes somos.html"> QUIÉNES SOMOS</a></li>
-                <li class="dropdown mega-dropdown border" id="megamenu">
+                <li class="active dropdown mega-dropdown border" id="megamenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">CATÁLOGO <span class="caret"></span></a>              
                         <ul class="dropdown-menu mega-dropdown-menu">
                                 <li class="col-md-3 list-dropdown">
@@ -150,22 +147,22 @@
     );
 });
 </script>
-
+<div class="section-info">
 <div class="container text-center">
 	<h1>LINEAS</h1>
 	<section>
         <div class="row lineas">
             <div class="board text-center">
                 <div class="board-inner text-center">
-	                <ul class="nav nav-tabs" id="myTab">
+	                <ul class="nav nav-tabs list-inline text-center" id="myTab">
 	                    <li class="active">
-	                    	<a href="#corporativo" data-toggle="tab" title="welcome"><span class="round-tabs one">CORPORATIVA</span></a>
+	                    	<a href="#corporativo" data-toggle="tab" title="welcome"><span class="round-tabs one">CORPORATIVO</span></a>
 	                	</li>
 						<li>
 							<a href="#industrial" data-toggle="tab" title="profile"><span class="round-tabs two">INDUSTRIAL</span></a>
 	                	</li>
 	                	<li>
-	                		<a href="#deportiva" data-toggle="tab" title="bootsnipp goodies"><span class="round-tabs three">DEPORTIVA</span></a>
+	                		<a href="#deportiva" data-toggle="tab" title="bootsnipp goodies"><span class="round-tabs three">DEPORTIVO</span></a>
 	                    </li>
 	                    <li>
 	                    	<a href="#escolar" data-toggle="tab" title="blah blah"><span class="round-tabs four">ESCOLAR</span></a>
@@ -180,57 +177,61 @@
                 </div>
                 <div class="tab-content">
                     <div class="tab-pane fade in active" id="corporativo">
-                    	<div class="">
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+                        <div class="title">
+                            <h2>CORPORATIVO</h2>
+                            <h4>Ofrecemos soluciones textiles en el segmento de oficina y/o empresa con productos de calidad y resistencia.</h4>
+                        </div>
+                        <div class="images-corporativo">
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/small/blusa-modelo2.png" alt="sample71" />
 								  <figcaption>
 								  	<h3>BLUSA</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/small/camisa-modelo1.png" alt="sample71" />
 								  <figcaption>
-								  	<h3>CAMISA</h3>
+								  	<h3>CAMISAS</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/small/falda-modelo1.png" alt="sample71" />
 								  <figcaption>
-								  	<h3>FALDA</h3>
+								  	<h3>FALDAS</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/modelo-pantalon.jpg" alt="sample71" />
 								  <figcaption>
-									<h3>PANTALON</h3>
+									<h3>PANTALONES</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/small/casaca-modelo1.png" alt="sample71" />
 								  <figcaption>
-								  	<h3>CASACA</h3>
+								  	<h3>CASACAS</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/small/chaqueta-modelo1.png" alt="sample71" />
 								  <figcaption>
-								 	<h3>CHAQUETA</h3>
+								 	<h3>CHAQUETAS</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/small/saco-modelo1.png" alt="sample71" />
 								  <figcaption>
 								  	<h3>SACO DE VESTIR</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
@@ -240,55 +241,79 @@
 						</div>
                     </div>
                     <div class="tab-pane fade" id="industrial">
+                        <div class="title">
+                            <h2>INDUSTRIAL</h2>
+                            <h4>Brindamos todo tipo de uniforme para su seguridad y protección en la industria, usando los mejores materiales en el proceso de confección.</h4>
+                        </div>
                     	<div class="">
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/modelo-mameluco.jpg" alt="sample71" />
 								  <figcaption>
 								  	<h3>MAMELUCOS</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/modelo-chaleco.jpg" alt="sample71" />
 								  <figcaption>
-								  	<h3>CHALECO</h3>
+								  	<h3>CHALECOS</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+                                <figure class="snip1446"><img src="img/modelo-casaca.png" alt="sample71" />
+                                  <figcaption>
+                                    <h3>CASACAS</h3>
+                                    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
+                                  </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+                                <figure class="snip1446"><img src="img/modelo-pantalon-indus.png" alt="sample71" />
+                                  <figcaption>
+                                    <h3>PANTALONES</h3>
+                                    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
+                                  </figcaption>
+                                </figure>
+                            </div>
 						</div>    
                     </div>
                     <div class="tab-pane fade" id="deportiva">
+                        <div class="title">
+                            <h2>DEPORTIVO</h2>
+                            <h4>Nuestra línea de productos está orientada a satisfacer las tendencias de la moda deportiva y necesidades específicas de cada cliente.</h4>
+                        </div>
                     	<div class="">
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/small/buzo-modelo3.png" alt="sample71" />
 								  <figcaption>
-									<h3>BUZO</h3>
+									<h3>BUZOS</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/small/polera-modelo3.png" alt="sample71" />
 								  <figcaption>
-									<h3>POLERA</h3>
+									<h3>POLERAS</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/modelo-polo.jpg" alt="sample71" />
 								  <figcaption>
-									<h3>POLO</h3>
+									<h3>POLOS</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/small/bvd-modelo3.png" alt="sample71" />
 								  <figcaption>
-									<h3>BVD</h3>
+									<h3>BVD'S</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
@@ -296,31 +321,115 @@
 						</div>
                     </div>
                     <div class="tab-pane fade" id="escolar">
+                        <div class="title">
+                            <h2>ESCOLAR</h2>
+                            <h4>Nuestra calidad garantiza un producto acorde a los requerimientos y exigencias del mercado educativo.</h4>
+                        </div>
                     	<div class="">
-						</div>     
+                            <div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+                                <figure class="snip1446"><img src="img/small/buzo-modelo3.png" alt="sample71" />
+                                  <figcaption>
+                                    <h3>BUZOS</h3>
+                                    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
+                                  </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+                                <figure class="snip1446"><img src="img/small/polera-modelo3.png" alt="sample71" />
+                                  <figcaption>
+                                    <h3>UNIFORMES</h3>
+                                    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
+                                  </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+                                <figure class="snip1446"><img src="img/modelo-polo.jpg" alt="sample71" />
+                                  <figcaption>
+                                    <h3>PANTALONES</h3>
+                                    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
+                                  </figcaption>
+                                </figure>
+                            </div>
+                        </div>    
                     </div>
                     <div class="tab-pane fade" id="publicitario">
+                        <div class="title">
+                            <h2>PUBLICITARIO</h2>
+                            <h4>Ofrecemos productos para empresas privadas y estatales de la más alta calidad en textiles publicitarios.</h4>
+                        </div>
   						<div class="">
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/modelo-gorro.png" alt="sample71" />
 								  <figcaption>
 								  	<h3>GORROS</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+                                <figure class="snip1446"><img src="img/modelo-mochila.png" alt="sample71" />
+                                  <figcaption>
+                                    <h3>MOCHILAS</h3>
+                                    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
+                                  </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+                                <figure class="snip1446"><img src="img/modelo-merchandising.png" alt="sample71" />
+                                  <figcaption>
+                                    <h3>MERCHANDISING</h3>
+                                    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
+                                  </figcaption>
+                                </figure>
+                            </div>
 						</div>
 					</div>
 					<div class="tab-pane fade" id="otros">
+                        <div class="title">
+                            <h2>OTROS</h2>
+                            <h4>Confeccionamos accesorios necesarios para el uso diario ofreciendo productos de calidad y resistencia.</h4>
+                        </div>
 						<div class="">
-							<div class="col-md-3 descripcion-linea">
-								<figure class="snip1446"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+							<div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+								<figure class="snip1446"><img src="img/modelo-cortina.png" alt="sample71" />
 								  <figcaption>
-									<h3>MANDIL</h3>
+									<h3>CORTINAS</h3>
 								    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
 								  </figcaption>
 								</figure>
 							</div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+                                <figure class="snip1446"><img src="img/modelo-mandil.png" alt="sample71" />
+                                  <figcaption>
+                                    <h3>MANDILES</h3>
+                                    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
+                                  </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+                                <figure class="snip1446"><img src="img/modelo-manta.png" alt="sample71" />
+                                  <figcaption>
+                                    <h3>MANTAS</h3>
+                                    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
+                                  </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+                                <figure class="snip1446"><img src="img/modelo-pijama.png" alt="sample71" />
+                                  <figcaption>
+                                    <h3>PIJAMAS</h3>
+                                    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
+                                  </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 descripcion-linea">
+                                <figure class="snip1446"><img src="img/modelo-sabana.png" alt="sample71" />
+                                  <figcaption>
+                                    <h3>SÁBANAS</h3>
+                                    <div class="icons"><button type="button" class="btn btn-danger">Ver más</button></div>
+                                  </figcaption>
+                                </figure>
+                            </div>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -328,6 +437,7 @@
 			</div>
 		</div>
 	</section>
+</div>
 </div>
 <div class="footer">
     <div class="container">
