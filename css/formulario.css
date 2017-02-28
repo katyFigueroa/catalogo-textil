@@ -114,3 +114,17 @@ section .divisor hr{margin: 10px 0 ; border-top: 2px solid rgba(51,51,51,.9);}
 .board-inner .col-md-3 .product .text h5{font-weight: bold; text-transform: uppercase; color: #505050; }
 .board-inner .col-md-3 .product .text p{color: #505050; font-weight: 100;}
 .board-inner .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{background-color:#eee; border:1px solid rgba(0,0,0,0.4); }
+
+@media (max-width: 767px) {
+  .modelo-prenda .border-colum {border-right: 0px;}
+  .modelo-prenda .descripcion{padding-top: 5%;}
+  .board-inner .nav-tabs>li a{margin: 5px 0;}
+}
+@media (max-width: 475px) {
+  .tab-content .modelo-prenda img{width: 100%;}
+  .modelo-prenda .lista-tallas{ width: 70%;}
+  /*.tab-content .modelo-prenda .data-zoom-image{visibility: hidden;}*/
+}
+@media (max-width: 400px) {
+  .board-inner .col-xs-6{width: 100%;}
+}
