@@ -61,6 +61,7 @@ body{font-family: 'Titillium Web', sans-serif;}
 .icons .imagen{padding: 10px;}*/
 /*-------------gallery---------*/
 .section-info{padding:10px 0; }
+.section-info .col-md-2{width:20%; }
 .section-product {background-color: #eee; padding-top: 10px;}
 .section-product img{width: 100%;}
 
@@ -75,7 +76,7 @@ figure.snip1190 * {
 }
 figure.snip1190 img {opacity: 0.8; width: 100%;}
 figure.snip1190 figcaption {bottom: 0; display: block; left: 0; position: absolute; right: 0; top: 0;}
-figure.snip1190 h2 { font-weight: 400; font-size: 27px; left: 0; right: 0; letter-spacing: -1px; margin: 0 auto; position: absolute; text-transform: uppercase;
+figure.snip1190 h2 { font-weight: 400; font-size: 20px; left: 0; right: 0; letter-spacing: -1px; margin: 0 auto; position: absolute; text-transform: uppercase;
   bottom: 50%; -webkit-transform: translateY(50%); transform: translateY(50%);}
 figure.snip1190 h2 span {font-weight: 800;}
 figure.snip1190 p {position: absolute; top: 0;left: 0; right: 0; margin: 0 auto; top: 50%; opacity: 0; font-size: 14px;
